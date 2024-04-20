@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 `
   const center = css`
@@ -16,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
 
 export const Header = styled.header`
 width: 15vw;
-background-color: #4A5051;
+background-color: #8E73F5;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -30,7 +31,7 @@ justify-content: space-evenly;
 display: flex;
 flex-direction: column;
 align-items: center;
-color: white;
+color: black;
 img{
     width: 10vw;
     border-radius: 50%;
@@ -55,7 +56,7 @@ li:nth-child(1){
    border-top: solid 1px white; 
 }
 a{
- color: white;  
+ color: black;  
  text-decoration: none;
 }
 

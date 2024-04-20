@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 import * as S from "./styled"
 import linkedin from "../../assets/link.png"
 import git from "../../assets/git.png"
-import face from "../../assets/face.png"
+import eu1 from "../../assets/eu1.jpg"
 
 export default function Header() {
   return (
     <S.Header>
         <S.BoxLogo>
-          <img src="https://labes.inf.ufes.br/wp-content/uploads/sem-foto.jpg" alt="" />
+          <img src={eu1} alt="" />
           <h2>David</h2>
           <p>Front-end Developer</p>
         </S.BoxLogo>

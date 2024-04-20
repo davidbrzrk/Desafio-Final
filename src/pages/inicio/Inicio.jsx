@@ -6,7 +6,8 @@ export default function Inicio() {
     <S.Main>
       <Header/>
       <section>
-        <h2>Inicio</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minus, placeat reprehenderit dolore repellat asperiores cupiditate id consequatur ipsam voluptates totam tempore. Placeat, molestias velit nulla autem adipisci cum cupiditate!
+        </p>
       </section>
     </S.Main>
   )
