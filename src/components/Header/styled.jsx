@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
 
 export const Header = styled.header`
 width: 15vw;
-background-color: #8E73F5;
+background-color:  #0B3F30;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -31,7 +31,7 @@ justify-content: space-evenly;
 display: flex;
 flex-direction: column;
 align-items: center;
-color: black;
+color: #EBD5B8;
 img{
     width: 10vw;
     border-radius: 50%;
@@ -56,7 +56,7 @@ li:nth-child(1){
    border-top: solid 1px white; 
 }
 a{
- color: black;  
+ color: #EBD5B8;  
  text-decoration: none;
 }
 
