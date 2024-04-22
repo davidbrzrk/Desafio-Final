@@ -1,12 +1,16 @@
 import styled,{createGlobalStyle, css} from "styled-components";
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+</style>
+
 
 export const GlobalStyle = createGlobalStyle`
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Platypi;
 }
 `
   const center = css`
@@ -21,11 +25,17 @@ background-color:  #0B3F30;
 display: flex;
 align-items: center;
 flex-direction: column;
+font-size: 12px;
+height: 100vh;
+
+h2{
+    font-size: 23px;
+}
 
 `
 
 export const BoxLogo = styled.div`
-height: 38vh;
+height: 38%;
 width: 15vw;
 justify-content: space-evenly;
 display: flex;
@@ -39,7 +49,7 @@ img{
 `
 
 export const BoxMenu = styled.nav`
-height: 38vh;
+height: 34%;
 width: 15vw;
 display: flex;
 align-items: center;
@@ -58,13 +68,15 @@ li:nth-child(1){
 a{
  color: #EBD5B8;  
  text-decoration: none;
+font-weight: 400;
 }
 
 `
 export const BoxIcon = styled.div`
 width: 15vw;
-height: 28vh;
+height: 18%;
 ${center}
 justify-content: space-evenly;
 flex-direction: column;
+transform: translateY(50px);
 `
