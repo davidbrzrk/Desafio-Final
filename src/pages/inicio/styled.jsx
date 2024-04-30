@@ -12,8 +12,9 @@ font-size: 20px;
 
 export const eu2 = styled.img`
 height: 20vw;
-border-radius: 100px;
+border-radius: 300px;
 border: solid 5px #4D2D18;
+transform: translateY(-35px);
 `;
 
 export const section1 = styled.section`
