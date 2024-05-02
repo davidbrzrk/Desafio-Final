@@ -14,7 +14,10 @@ export default function Sobre() {
       <S.Caixa1>
       <S.Sobre>
         <h1>Sobre mim</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ducimus eaque ad voluptatem, itaque dicta? In dicta dignissimos recusandae maxime quas totam veniam optio beatae voluptatem similique? Voluptate, quod id!</p>
+        <p>Olá! Eu sou o David Araujo. 
+
+         Sou um estudante de React apaixonado por tecnologia desde a infância. Minha curiosidade insaciável me impulsiona a buscar constantemente novos desafios e oportunidades de aprendizado. Estou animado para explorar o React e contribuir para o avanço da tecnologia através do meu trabalho dedicado.
+        </p>
       </S.Sobre>
       <S.Habilidades>
         <h1>Habilidades</h1>

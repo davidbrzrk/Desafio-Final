@@ -8,7 +8,7 @@ export default function Inicio() {
       <Header/>
       <S.section1>
         <S.eu2 src={eu2quad}></S.eu2>
-        <p>1Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minus, placeat reprehenderit dolore repellat asperiores cupiditate id consequatur ipsam voluptates totam tempore. Placeat, molestias velit nulla autem adipisci cum cupiditate!
+        <p>Sou um estudante de React apaixonado por tecnologia, buscando constantemente desafios e aprendizado. Animado para explorar o React e contribuir para o avanço da tecnologia.
         </p>
       </S.section1>
     </S.Main>
