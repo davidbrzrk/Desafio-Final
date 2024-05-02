@@ -15,6 +15,9 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 color: #0B3F30;
+padding-left: 10%;
+padding-right: 10%;
+font-weight: 600;
 `;
 
 export const Habilidades = styled.section`
@@ -22,6 +25,9 @@ display: flex;
 flex-direction: column;
 align-items: center;
 color: #0B3F30;
+padding-left: 10%;
+padding-right: 10%;
+font-weight: 600;
 `;
 export const Caixa = styled.section`
 img{
